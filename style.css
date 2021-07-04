@@ -14,11 +14,19 @@ section{
 }
 .half-width{
     width: 40%;
-    padding: 0 30px 0 20px;
+    padding-left: 8%;
 }
 .clr-orange{
     color: orange;
 }
 .top-section img{
   width: 100%;
+}
+.link-button {
+    text-decoration: none;
+    background: orange;
+    padding: 10px 45px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
 }
