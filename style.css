@@ -63,3 +63,6 @@ section{
     border-image: linear-gradient(#0000e6, #02b1b1);
     border-image-slice: 1;
 }
+footer p{
+    text-align: center;
+}
