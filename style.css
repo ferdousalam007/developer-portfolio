@@ -5,12 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 45px;
+}
 section{
     margin-bottom: 120px;
 }
 .top-section{
-    display: flex;
-    padding: 0 50px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 .display-section{
     display: flex;
@@ -23,7 +26,7 @@ section{
 .clr-orange{
     color: orange;
 }
-.top-section img{
+.half-width img{
   width: 100%;
 }
 .link-button {
@@ -33,4 +36,9 @@ section{
     border-radius: 5px;
     color: #fff;
     font-weight: 700;
+}
+.dream-big{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
