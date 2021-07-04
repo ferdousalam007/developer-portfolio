@@ -21,6 +21,8 @@ section{
 }
 .half-width{
     width: 40%;
+}
+.padding-left{
     padding-left: 8%;
 }
 .clr-orange{
@@ -41,4 +43,23 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-box {
+    padding: 20px 30px 55px 45px;
+    box-shadow: 3px 4px 45px #888;
+}
+#full-web-dev{
+    border-left: 9px solid;
+    border-image: linear-gradient(#ffa37f, #ff4b2b);
+    border-image-slice: 1;
+}
+#baby-web-dev{
+    border-left: 9px solid;
+    border-image: linear-gradient(#0000e6, #02b1b1);
+    border-image-slice: 1;
 }
